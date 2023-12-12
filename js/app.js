@@ -9,7 +9,3 @@ function redirectToPhoneNumber() {
     const phoneNumber = "+998937110278";
     window.location.href = `tel:${phoneNumber}`;
 }
-
-function toggleActiveClass(element) {
-    element.classList.toggle('active_menu');
-}

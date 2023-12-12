@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Alkatra&family=Anton&family=Bebas+Neue&family=Bruno+Ace+SC&family=Cabin&family=Cormorant&family=Lunasima&family=Merienda&family=Roboto:wght@700&family=Teko&family=Young+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: Young serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background-color: #fff;
+  box-shadow: 0 0px 5px 0px silver;
+  padding: 5px 0;
+}
+header nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .container .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+header nav .container .left img {
+  width: 80px;
+  border-radius: 50%;
+}
+header nav .container .left .name h2 {
+  color: rgb(0, 184, 0);
+  font-weight: bold;
+  text-shadow: 0 0 2px rgb(0, 184, 0);
+}
+header nav .container .left .name h6 {
+  color: silver;
+}
+header nav .container .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .container .right ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+header nav .container .right ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .container .right ul li a {
+  font-size: 1.2em;
+  color: rgba(0, 0, 0, 0.274);
+  font-weight: bolder;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.363);
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+header nav .container .right ul:hover a {
+  color: #aaa;
+}
+header nav .container .right ul:hover a:hover {
+  color: rgb(0, 184, 0);
+}
+header nav .container .right span {
+  display: none;
+}
+
+.messangers {
+  position: fixed;
+  top: 200px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 9999;
+}
+.messangers a svg {
+  width: 50px;
+  border-radius: 50%;
+  transition: all 0.3s linear;
+}
+.messangers a svg:hover {
+  transform: scale(1.1) translateX(5px);
+}
+.messangers a:nth-child(1) svg {
+  -webkit-animation: animTleg 2s infinite linear;
+          animation: animTleg 2s infinite linear;
+}
+@-webkit-keyframes animTleg {
+  0% {
+    box-shadow: 0;
+  }
+  50% {
+    box-shadow: 0 0 10px 2px #0081B4;
+  }
+  100% {
+    box-shadow: 0;
+  }
+}
+@keyframes animTleg {
+  0% {
+    box-shadow: 0;
+  }
+  50% {
+    box-shadow: 0 0 10px 2px #0081B4;
+  }
+  100% {
+    box-shadow: 0;
+  }
+}
+.messangers a:nth-child(2) svg {
+  -webkit-animation: animInsta 2s infinite linear;
+          animation: animInsta 2s infinite linear;
+}
+@-webkit-keyframes animInsta {
+  0% {
+    box-shadow: 0;
+  }
+  50% {
+    box-shadow: 0 0 10px 2px #FF3FA4;
+  }
+  100% {
+    box-shadow: 0;
+  }
+}
+@keyframes animInsta {
+  0% {
+    box-shadow: 0;
+  }
+  50% {
+    box-shadow: 0 0 10px 2px #FF3FA4;
+  }
+  100% {
+    box-shadow: 0;
+  }
+}
+.messangers a:nth-child(3) svg {
+  -webkit-animation: animPhone 2s infinite linear;
+          animation: animPhone 2s infinite linear;
+}
+@-webkit-keyframes animPhone {
+  0% {
+    box-shadow: 0;
+  }
+  50% {
+    box-shadow: 0 0 10px 2px #6499E9;
+  }
+  100% {
+    box-shadow: 0;
+  }
+}
+@keyframes animPhone {
+  0% {
+    box-shadow: 0;
+  }
+  50% {
+    box-shadow: 0 0 10px 2px #6499E9;
+  }
+  100% {
+    box-shadow: 0;
+  }
+}
+
+.page1 {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page1 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page1 .container form {
+  width: 70%;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  box-shadow: 0 0 3px 2px silver;
+  padding: 10px;
+  border-radius: 5px;
+}/*# sourceMappingURL=form.css.map */
