@@ -4,8 +4,8 @@
   }
   header nav .container .left .name h2 {
     font-size: 2em;
-    color: #FFED00;
-    text-shadow: 0 0 2px #8e8500;
+    color: rgb(0, 184, 0);
+    text-shadow: 0 0 2px rgb(0, 184, 0);
   }
   header nav .container .left .name h6 {
     font-size: 0.8em;
@@ -27,14 +27,14 @@
     transition: all 0.3s linear;
   }
   header nav .container .right ul li a {
-    color: #FFED00;
+    color: rgb(0, 184, 0);
   }
   header nav .container .right span {
     display: block;
   }
   header nav .container .right span svg {
-    fill: #aaa;
-    filter: drop-shadow(0px 0px 2px #000);
+    fill: rgb(0, 184, 0);
+    filter: drop-shadow(0px 0px 2px rgb(0, 184, 0));
   }
   header nav .container .right .active_menu {
     transform: translate(-41%, 155px);
@@ -44,7 +44,7 @@
     top: 250px;
   }
   .messangers a svg {
-    width: 30px;
+    width: 50px;
   }
   .messangers a svg:hover {
     transform: translateX(-5px);
@@ -78,8 +78,8 @@
   }
   header nav .container .left .name h2 {
     font-size: 2em;
-    color: #FFED00;
-    text-shadow: 0 0 2px #8e8500;
+    color: rgb(0, 184, 0);
+    text-shadow: 0 0 2px rgb(0, 184, 0);
   }
   header nav .container .left .name h6 {
     font-size: 0.8em;
@@ -107,8 +107,8 @@
     display: block;
   }
   header nav .container .right span svg {
-    fill: #aaa;
-    filter: drop-shadow(0px 0px 2px #000);
+    fill: rgb(0, 184, 0);
+    filter: drop-shadow(0px 0px 2px rgb(0, 184, 0));
   }
   header nav .container .right .active_menu {
     transform: translate(-43%, 155px);
@@ -118,7 +118,7 @@
     top: 250px;
   }
   .messangers a svg {
-    width: 30px;
+    width: 50px;
   }
   .messangers a svg:hover {
     transform: translateX(-5px);
@@ -152,8 +152,8 @@
   }
   header nav .container .left .name h2 {
     font-size: 2em;
-    color: #FFED00;
-    text-shadow: 0 0 2px #8e8500;
+    color: rgb(0, 184, 0);
+    text-shadow: 0 0 2px rgb(0, 184, 0);
   }
   header nav .container .left .name h6 {
     font-size: 0.8em;
@@ -161,7 +161,7 @@
   }
   header nav .container .right ul {
     flex-direction: column;
-    transform: translate(-1000px, 155px);
+    transform: translate(-10800px, 155px);
     position: absolute;
     display: flex;
     width: 99%;
@@ -175,24 +175,24 @@
     transition: all 0.3s linear;
   }
   header nav .container .right ul li a {
-    color: #FFED00;
+    color: rgb(0, 184, 0);
   }
   header nav .container .right span {
     display: block;
   }
   header nav .container .right span svg {
-    fill: #aaa;
-    filter: drop-shadow(0px 0px 2px #000);
+    fill: rgb(0, 184, 0);
+    filter: drop-shadow(0px 0px 2px rgb(0, 184, 0));
   }
   header nav .container .right .active_menu {
-    transform: translate(-35.5%, 155px);
+    transform: translate(-42%, 155px);
   }
   .messangers {
     right: 0;
     top: 250px;
   }
   .messangers a svg {
-    width: 40px;
+    width: 50px;
   }
   .messangers a svg:hover {
     transform: translateX(-5px);
