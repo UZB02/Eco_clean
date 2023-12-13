@@ -101,7 +101,7 @@ header nav .container .right span {
   transition: all 0.3s linear;
 }
 .messangers a svg:hover {
-  transform: scale(1.1) translateX(5px);
+  transform: scale(1.1);
 }
 .messangers a:nth-child(1) svg {
   -webkit-animation: animTleg 2s infinite linear;

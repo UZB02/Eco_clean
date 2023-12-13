@@ -65,19 +65,21 @@
         bottom: 0;
         top: 530px;
         flex-direction: row;
+
         a {
             svg {
                 width: 50px;
             }
 
             svg:hover {
-            transform: scale(1.1);
+                transform: scale(1.1);
             }
         }
     }
-    .page1{
-        .container{
-            form{
+
+    .page1 {
+        .container {
+            form {
                 width: 100%;
             }
         }
@@ -146,17 +148,27 @@
         }
     }
 
-    .messangers {
-        right: 0;
-        top: 250px;
-
-        a {
-            svg {
-                width: 50px;
+        .messangers {
+            right: 180px;
+            bottom: 0;
+            top: 530px;
+            flex-direction: row;
+    
+            a {
+                svg {
+                    width: 50px;
+                }
+    
+                svg:hover {
+                    transform: scale(1.1);
+                }
             }
+        }
 
-            svg:hover {
-                transform: scale(1.1);
+    .page1 {
+        .container {
+            form {
+                width: 100%;
             }
         }
     }
@@ -234,7 +246,7 @@
             }
 
             svg:hover {
-            transform: scale(1.1);
+                transform: scale(1.1);
             }
         }
     }

@@ -49,7 +49,7 @@
     width: 50px;
   }
   .messangers a svg:hover {
-    transform: translateX(-5px);
+    transform: scale(1.1);
   }
   .page1 .container form {
     width: 100%;
@@ -97,14 +97,19 @@
     transform: translate(-43%, 155px);
   }
   .messangers {
-    right: 0;
-    top: 250px;
+    right: 180px;
+    bottom: 0;
+    top: 530px;
+    flex-direction: row;
   }
   .messangers a svg {
     width: 50px;
   }
   .messangers a svg:hover {
-    transform: translateX(-5px);
+    transform: scale(1.1);
+  }
+  .page1 .container form {
+    width: 100%;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 800px) {
@@ -156,6 +161,6 @@
     width: 50px;
   }
   .messangers a svg:hover {
-    transform: translateX(-5px);
+    transform: scale(1.1);
   }
 }/*# sourceMappingURL=formsmedia.css.map */
