@@ -10,14 +10,14 @@ function redirectToPhoneNumber() {
     window.location.href = `tel:${phoneNumber}`;
 }
 
-function sendToTelegram(a) {
+function sendToTelegram() {
     // Input qiymatlarni olish
     // const firstName = document.getElementById('firstName').value;
     // const lastName = document.getElementById('lastName').value;
     // const phoneNumber = document.getElementById('phoneNumber').value;
     const Input = document.querySelectorAll('input');
-    const selectValue = a.value;
-    console.log(selectValue);
+    // const selectValue = a.value;
+    // console.log(selectValue);
     // Telegram Botning API manzilini va chat ID sini o'zgartiring
     const telegramBotAPI = 'https://api.telegram.org/bot6752979823:AAEQq-Eu8mE5p073b12-cfs6Y4WWdldl-iY/sendMessage';
     const chatId = '6462444239';
@@ -27,7 +27,7 @@ function sendToTelegram(a) {
   Ism: ${Input[0].value}
   Familiya: ${Input[1].value}
   Telefon raqami: +998${Input[2].value}
-  Ta'rif:${selectValue}`;
+  `;
 
     // Telegramga so'rov yuborish uchun XMLHttpRequest obyektini yaratish
     const request = new XMLHttpRequest();
@@ -39,16 +39,16 @@ function sendToTelegram(a) {
     // So'rovni yuborish va javobni tekshirish
     request.onreadystatechange = function () {
         if (request.readyState === 4 && request.status === 200) {
-            Input[0].value ="",
-            Input[1].value ="",
-            Input[2].value ="",
-            Swal.fire({
-                position: "top-center",
-                icon: "success",
-                title: "Siz bilan tez orada bog'lanamiz",
-                showConfirmButton: false,
-                timer: 1500
-            });
+            Input[0].value = "",
+                Input[1].value = "",
+                Input[2].value = "",
+                Swal.fire({
+                    position: "top-center",
+                    icon: "success",
+                    title: "Siz bilan tez orada bog'lanamiz",
+                    showConfirmButton: false,
+                    timer: 1500
+                });
         } else if (Input[0].value === null && Input[1].value === null && Input[2].value === null) {
             Swal.fire({
                 position: "top-center",
