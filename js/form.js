@@ -10,13 +10,14 @@ function redirectToPhoneNumber() {
     window.location.href = `tel:${phoneNumber}`;
 }
 
-function sendToTelegram() {
+function sendToTelegram(a) {
     // Input qiymatlarni olish
     // const firstName = document.getElementById('firstName').value;
     // const lastName = document.getElementById('lastName').value;
     // const phoneNumber = document.getElementById('phoneNumber').value;
     const Input = document.querySelectorAll('input');
-
+    const selectValue = a.value;
+    console.log(selectValue);
     // Telegram Botning API manzilini va chat ID sini o'zgartiring
     const telegramBotAPI = 'https://api.telegram.org/bot6752979823:AAEQq-Eu8mE5p073b12-cfs6Y4WWdldl-iY/sendMessage';
     const chatId = '6462444239';
@@ -25,7 +26,8 @@ function sendToTelegram() {
     const message = `Buyurtmachi:
   Ism: ${Input[0].value}
   Familiya: ${Input[1].value}
-  Telefon raqami: +998${Input[2].value}`;
+  Telefon raqami: +998${Input[2].value}
+  Ta'rif:${selectValue}`;
 
     // Telegramga so'rov yuborish uchun XMLHttpRequest obyektini yaratish
     const request = new XMLHttpRequest();

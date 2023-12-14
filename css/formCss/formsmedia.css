@@ -46,7 +46,7 @@
     flex-direction: row;
   }
   .messangers a svg {
-    width: 50px;
+    width: 30px;
   }
   .messangers a svg:hover {
     transform: scale(1.1);
