@@ -193,6 +193,17 @@ header nav .container .right span {
   align-items: center;
   justify-content: center;
 }
+.page1 .container button {
+  font-size: 1.3em;
+  padding: 10px 20px;
+  transition: all 0.3s linear;
+}
+.page1 .container button:hover {
+  transform: scale(1.05);
+}
+.page1 .container button:active {
+  transform: scale(0.95);
+}
 .page1 .container form {
   width: 70%;
   -webkit-backdrop-filter: blur(15px);

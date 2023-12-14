@@ -40,7 +40,7 @@
     transform: translate(-41%, 125px);
   }
   .messangers {
-    right: 90px;
+    width: 100%;
     bottom: 0;
     top: 530px;
     flex-direction: row;
@@ -101,7 +101,7 @@
     transform: translate(-43%, 155px);
   }
   .messangers {
-    right: 180px;
+    width: 100%;
     bottom: 0;
     top: 530px;
     flex-direction: row;
@@ -163,7 +163,7 @@
   }
   .messangers {
     right: 0;
-    top: 250px;
+    height: 50%;
   }
   .messangers a svg {
     width: 50px;

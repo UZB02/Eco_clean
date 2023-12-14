@@ -188,6 +188,17 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
+        button{
+            font-size: 1.3em;
+            padding:10px 20px;
+            transition: all .3s linear;
+        }
+        button:hover{
+            transform: scale(1.05);
+        }
+        button:active{
+            transform: scale(.95);
+        }
         form{
             width: 70%;
             backdrop-filter: blur(15px);

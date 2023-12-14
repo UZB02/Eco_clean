@@ -61,7 +61,7 @@
     }
 
     .messangers {
-        right: 90px;
+        width: 100%;
         bottom: 0;
         top: 530px;
         flex-direction: row;
@@ -79,10 +79,11 @@
 
     .page1 {
         .container {
-            button{
+            button {
                 font-size: 1.1em;
                 padding: 10px 20px;
             }
+
             form {
                 width: 100%;
             }
@@ -152,29 +153,30 @@
         }
     }
 
-        .messangers {
-            right: 180px;
-            bottom: 0;
-            top: 530px;
-            flex-direction: row;
-    
-            a {
-                svg {
-                    width: 50px;
-                }
-    
-                svg:hover {
-                    transform: scale(1.1);
-                }
+    .messangers {
+        width: 100%;
+        bottom: 0;
+        top: 530px;
+        flex-direction: row;
+
+        a {
+            svg {
+                width: 50px;
+            }
+
+            svg:hover {
+                transform: scale(1.1);
             }
         }
+    }
 
     .page1 {
         .container {
             button {
-                    font-size: 1.1em;
-                    padding: 10px 20px;
-                }
+                font-size: 1.1em;
+                padding: 10px 20px;
+            }
+
             form {
                 width: 100%;
             }
@@ -246,7 +248,7 @@
 
     .messangers {
         right: 0;
-        top: 250px;
+        height: 50%;
 
         a {
             svg {
