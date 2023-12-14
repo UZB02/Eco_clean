@@ -206,11 +206,12 @@ header nav .container .right span {
           backdrop-filter: blur(15px);
 }
 .page1 .container .card h1 {
-  font-size: 5em;
+  font-size: 3.5em;
   font-family: sans-serif;
   font-weight: bold;
   color: rgb(0, 184, 0);
-  text-shadow: 0 0 10px rgb(0, 184, 0);
+  text-shadow: 0 0 2px rgb(0, 184, 0);
+  text-transform: uppercase;
 }
 .page1 .container .card h2 {
   color: rgba(0, 0, 0, 0.557);

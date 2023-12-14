@@ -47,6 +47,14 @@ function sendToTelegram() {
                 showConfirmButton: false,
                 timer: 1500
             });
+        } else if (Input[0].value === null && Input[1].value === null && Input[2].value === null) {
+            Swal.fire({
+                position: "top-center",
+                icon: "error",
+                title: "Ma'lumotlarni to'liq kirgizing!",
+                showConfirmButton: false,
+                timer: 1500
+            });
         }
     };
 
