@@ -68,7 +68,10 @@
     font-size: 1em;
   }
   .page1 .container .card h2 {
-    font-size: 1.3em;
+    font-size: 1em;
+  }
+  .page1 .container .card p {
+    font-size: 0.8em;
   }
   .page1 .container .card a {
     font-size: 1em;
