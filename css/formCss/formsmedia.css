@@ -42,14 +42,18 @@
   .messangers {
     width: 100%;
     bottom: 0;
+    display: none;
     top: 530px;
     flex-direction: row;
   }
   .messangers a svg {
-    width: 30px;
+    width: 50px;
   }
   .messangers a svg:hover {
     transform: scale(1.1);
+  }
+  .page1 .container {
+    padding: 50px 0;
   }
   .page1 .container button {
     font-size: 1.1em;

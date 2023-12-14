@@ -63,11 +63,12 @@
     .messangers {
         width: 100%;
         bottom: 0;
+        display: none;
         top: 530px;
         flex-direction: row;
         a {
             svg {
-                width: 30px;
+                width: 50px;
             }
 
             svg:hover {
@@ -78,6 +79,7 @@
 
     .page1 {
         .container {
+            padding: 50px 0;
             button {
                 font-size: 1.1em;
                 padding: 10px 20px;
