@@ -294,9 +294,9 @@ header nav .container .right span {
   flex-wrap: wrap;
 }
 .page2 .container .right span {
-  width: 50%;
+  width: 100%;
 }
 .page2 .container .right img {
   width: 100%;
-  height: 40vh;
+  height: 80vh;
 }/*# sourceMappingURL=style.css.map */

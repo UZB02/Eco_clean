@@ -89,7 +89,7 @@
     width: 100%;
   }
   .page2 .container .right span img {
-    height: 30vh;
+    height: 50vh;
   }
 }
 @media screen and (min-width: 400px) and (max-width: 600px) {
