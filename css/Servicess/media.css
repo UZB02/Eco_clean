@@ -17,6 +17,7 @@
     position: absolute;
     display: flex;
     width: 99%;
+    height: 34vh;
     padding: 10px 0;
     align-items: center;
     justify-content: center;
@@ -74,6 +75,7 @@
     position: absolute;
     display: flex;
     width: 99%;
+    height: 34vh;
     padding: 10px 0;
     align-items: center;
     justify-content: center;
@@ -131,6 +133,7 @@
     position: absolute;
     display: flex;
     width: 99%;
+    height: 34vh;
     padding: 10px 0;
     align-items: center;
     justify-content: center;
@@ -188,6 +191,7 @@
     position: absolute;
     display: flex;
     width: 99%;
+    height: 34vh;
     padding: 10px 0;
     align-items: center;
     justify-content: center;
@@ -207,7 +211,7 @@
     fill: rgb(0, 184, 0);
   }
   header nav .container .right .active_menu {
-    transform: translate(-41%, 155px);
+    transform: translate(-38%, 155px);
   }
   .messangers {
     right: 0;
@@ -245,6 +249,7 @@
     position: absolute;
     display: flex;
     width: 99%;
+    height: 34vh;
     padding: 10px 0;
     align-items: center;
     justify-content: center;
@@ -264,7 +269,7 @@
     fill: rgb(0, 184, 0);
   }
   header nav .container .right .active_menu {
-    transform: translate(-41%, 155px);
+    transform: translate(-37%, 155px);
   }
   .messangers {
     right: 0;

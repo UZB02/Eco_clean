@@ -17,6 +17,7 @@
     position: absolute;
     display: flex;
     width: 99%;
+    height: 33vh;
     padding: 10px 0;
     align-items: center;
     justify-content: center;
@@ -37,7 +38,7 @@
     filter: drop-shadow(0px 0px 2px rgb(0, 184, 0));
   }
   header nav .container .right .active_menu {
-    transform: translate(-41%, 125px);
+    transform: translate(-41%, 150px);
   }
   .messangers {
     width: 100%;
@@ -92,7 +93,7 @@
     transition: all 0.3s linear;
   }
   header nav .container .right ul li a {
-    color: #FFED00;
+    color: rgb(0, 184, 0);
   }
   header nav .container .right span {
     display: block;
@@ -163,7 +164,7 @@
     filter: drop-shadow(0px 0px 2px rgb(0, 184, 0));
   }
   header nav .container .right .active_menu {
-    transform: translate(-42%, 155px);
+    transform: translate(-35%, 155px);
   }
   .messangers {
     right: 0;
