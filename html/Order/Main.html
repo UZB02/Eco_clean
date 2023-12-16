@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/img/icon.jpg">
-    <title>Bog'lanish</title>
+    <title>Buyurtma</title>
     <link rel="stylesheet" href="/css/formCss/form.css">
     <link rel="stylesheet" href="/css/formCss/formsmedia.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
-
 <body>
     <header>
         <nav>
@@ -27,8 +25,10 @@
                 <div class="right d-flex align-items-center justify-content-center">
                     <ul class="d-flex align-items-center justify-content-center">
                         <li><a href="/index.html">Uy</a></li>
-                        <!-- <li><a href="#">Ma'lumot</a></li> -->
-                        <li><a href="/html/Sevicess/Main.html">Hizmatlar</a></li>
+                        <li><a href="/html/Sevicess/Main.html">Xizmatlar</a></li>
+                        <li><a href="#">Ma'lumot</a></li>
+                    <li><a href="/html/Contact/Main.html" target="_blank"><button type="button" class="btn btn-secondary"
+                                style="background-color: rgb(0, 184, 0);">Bog'lanish</button></a></li>
                     </ul>
                     <span><svg class="menubtn" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round"
                             stroke-miterlimit="2" width="50" height="50" viewBox="0 0 24 24"
@@ -140,19 +140,19 @@
                     <input type="text" class="form-control" id="lastName">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Tell:</label>
-                    <input type="number" min="0" class="form-control" id="phoneNumber" >
-                </div>
-                <!-- <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label">Tozalov Turi</label>
                     <select onchange="sendToTelegram(this)" class="form-select" aria-label="Default select example">
-                        <option value="Uy Tozalov">Uy Tozalov</option>
-                        <option value="Ofis Tozalov">Ofis Tozalov</option>
-                        <option value="Ko'cha Tozalov">Ko'cha Tozalov</option>
+                        <option value="standart">Standart Ta'rif</option>
+                        <option value="general">General Ta'rif</option>
                     </select>
-                </div> -->
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Tell:</label>
+                    <input type="number" min="0" class="form-control" id="phoneNumber">
+                </div>
             </form>
-            <button type="submit" class="btn btn-primary" onclick="sendToTelegram()" style="margin-top: 10px; background-color: rgb(0, 184, 0); color: #fff; border: none; box-shadow: 0 1px 3px 1px silver;">Yuborish</button>
+            <button type="submit" class="btn btn-primary" onclick="sendToTelegram()"
+                style="margin-top: 10px; background-color: rgb(0, 184, 0); color: #fff; border: none; box-shadow: 0 1px 3px 1px silver;">Yuborish</button>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
