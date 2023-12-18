@@ -54,6 +54,9 @@
             backdrop-filter: blur(15px);
     align-items: center;
     display: none;
+    height: 100vh;
+    position: relative;
+    z-index: 999;
     border-top: 1px solid rgba(192, 192, 192, 0.297);
     justify-content: center;
   }
@@ -61,6 +64,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    height: 100%;
     gap: 15px;
     padding-top: 30px;
     padding-bottom: 10px;
