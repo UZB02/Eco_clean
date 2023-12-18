@@ -13,7 +13,9 @@ function redirectToPhoneNumber() {
 function sendToTelegram() {
     // Input qiymatlarni olish
     const Input = document.querySelectorAll('input');
-    const categoryTypeOption = categoryType.options[categoryType.selectedIndex].value;
+    var Select_form = document.getElementById("select_form");
+    var selectedValue = Select_form.value;
+    console.log(selectedValue);
     // Telegram Botning API manzilini va chat ID sini o'zgartiring
     const telegramBotAPI = 'https://api.telegram.org/bot6752979823:AAEQq-Eu8mE5p073b12-cfs6Y4WWdldl-iY/sendMessage';
     const chatId = '6462444239';
@@ -22,6 +24,7 @@ function sendToTelegram() {
     const message = `Buyurtmachi:
   Ism: ${Input[0].value}
   Familiya: ${Input[1].value}
+  Xizmatchilar soni: ${selectedValue}
   Telefon raqami: +998${Input[2].value}
   `;
 

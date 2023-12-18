@@ -41,7 +41,7 @@
             </div>
         </nav>
     </header>
-    <div class="messangers">
+    <div class="messangers" style="display: none;">
         <!-- telagram -->
         <a href="https://t.me/eco_clean_nmg" target="_blank">
             <svg viewBox="0 0 240 240" id="svg2" xmlns="http://www.w3.org/2000/svg">
@@ -140,10 +140,26 @@
                     <input type="text" class="form-control" id="lastName">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Tozalov Turi</label>
-                    <select onchange="sendToTelegram(this)" class="form-select" aria-label="Default select example">
-                        <option value="standart">Standart Ta'rif</option>
-                        <option value="general">General Ta'rif</option>
+                    <label for="exampleInputPassword1" class="form-label">Talablar</label>
+                    <select id="select_form" class="form-select" aria-label="Default select example">
+                        <option value="1 kishi">Erkak</option>
+                        <option value="2 kishi">Ayol</option>
+                        <option value="3 kishi">Erkak va Ayol</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Xizmatchilar Soni</label>
+                    <select id="select_form" class="form-select" aria-label="Default select example">
+                        <option value="1 kishi">1 kishi</option>
+                        <option value="2 kishi">2 kishi</option>
+                        <option value="3 kishi">3 kishi</option>
+                        <option value="4 kishi">4 kishi</option>
+                        <option value="5 kishi">5 kishi</option>
+                        <option value="6 kishi">6 kishi</option>
+                        <option value="7 kishi">7 kishi</option>
+                        <option value="8 kishi">8 kishi</option>
+                        <option value="9 kishi">9 kishi</option>
+                        <option value="10 kishi">10 kishi</option>
                     </select>
                 </div>
                 <div class="mb-3">
@@ -156,7 +172,7 @@
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="/js/form.js"></script>
+    <script src="/js/order.js"></script>
 </body>
 
 </html>
