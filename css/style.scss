@@ -26,6 +26,9 @@ header {
     padding: 5px 0;
 
     nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         .container {
             display: flex;
             align-items: center;

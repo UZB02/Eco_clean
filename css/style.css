@@ -25,6 +25,11 @@ header {
   box-shadow: 0 0px 5px 0px silver;
   padding: 5px 0;
 }
+header nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 header nav .container {
   display: flex;
   align-items: center;
