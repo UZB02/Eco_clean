@@ -55,6 +55,8 @@ function sendToTelegram() {
             Input[0].value = "";
             Input[1].value = "";
             Input[2].value = "";
+            Select_requestValue = "";
+            selectedValue="";
             Swal.fire({
                 position: "top-center",
                 icon: "success",

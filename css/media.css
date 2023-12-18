@@ -375,4 +375,126 @@
   .page2 .container .right {
     width: 100%;
   }
+}
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+  header nav .container .left .name h2 {
+    font-size: 2em;
+    color: rgb(0, 184, 0);
+    text-shadow: 0 0 2px rgb(0, 184, 0);
+  }
+  header nav .container .left .name h6 {
+    font-size: 0.8em;
+    color: silver;
+  }
+  header nav .container .right ul {
+    flex-direction: column;
+    transform: scale(0) translate(0, 815px);
+    position: absolute;
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(192, 192, 192, 0.315);
+    -webkit-backdrop-filter: blur(15px);
+            backdrop-filter: blur(15px);
+    border-radius: 5px;
+    transition: all 0.3s linear;
+  }
+  header nav .container .right ul li a {
+    font-size: 2em;
+    color: rgb(0, 184, 0);
+  }
+  header nav .container .right ul li a button {
+    font-size: 1em;
+  }
+  header nav .container .right span {
+    display: block;
+  }
+  header nav .container .right span svg {
+    fill: rgb(0, 184, 0);
+  }
+  header nav .container .right .active_menu {
+    transform: scale(1) translate(0, 815px);
+  }
+  header nav .menu_bar {
+    display: flex;
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(15px);
+            backdrop-filter: blur(15px);
+    align-items: center;
+    display: none;
+    border-top: 1px solid silver;
+    justify-content: center;
+  }
+  header nav .menu_bar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    list-style: none;
+  }
+  header nav .menu_bar ul li a {
+    color: rgb(0, 184, 0);
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  header nav .menu_bar ul li a button {
+    font-size: 0.9em;
+  }
+  header nav .active_menu {
+    display: block;
+  }
+  .messangers {
+    right: 0;
+    top: 250px;
+  }
+  .messangers a svg {
+    width: 50px;
+  }
+  .messangers a svg:hover {
+    transform: translateX(-5px);
+  }
+  .page1 {
+    background: url("https: //mir-s3-cdn-cf.behance.net/project_modules/max_3840/093ae496677423.5eb3b3c6caaa7.jpg");
+    background-size: contain;
+    background-size: 100%;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+  }
+  .page1 .container .card {
+    margin-top: 20px;
+    width: 100%;
+    padding-right: 35px;
+    border-top-right-radius: 30%;
+  }
+  .page1 .container .card h1 {
+    font-size: 3em;
+  }
+  .page1 .container .card a {
+    font-size: 1em;
+  }
+  .page1 .container .image {
+    display: none;
+  }
+  .page2 .container {
+    flex-direction: column;
+  }
+  .page2 .container .left {
+    width: 100%;
+  }
+  .page2 .container .right {
+    width: 100%;
+  }
 }/*# sourceMappingURL=media.css.map */
