@@ -15,7 +15,8 @@ function sendToTelegram() {
     const Input = document.querySelectorAll('input');
     var Select_form = document.getElementById("select_form");
     var selectedValue = Select_form.value;
-    console.log(selectedValue);
+    var Select_request = document.getElementById("select_request");
+    var Select_requestValue = Select_request.value;
     // Telegram Botning API manzilini va chat ID sini o'zgartiring
     const telegramBotAPI = 'https://api.telegram.org/bot6752979823:AAEQq-Eu8mE5p073b12-cfs6Y4WWdldl-iY/sendMessage';
     const chatId = '6462444239';
@@ -24,6 +25,7 @@ function sendToTelegram() {
     const message = `Buyurtmachi:
   Ism: ${Input[0].value}
   Familiya: ${Input[1].value}
+  Talab: ${Select_requestValue}
   Xizmatchilar soni: ${selectedValue}
   Telefon raqami: +998${Input[2].value}
   `;
