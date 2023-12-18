@@ -13,11 +13,14 @@
   }
   header nav .container .right ul {
     flex-direction: column;
-    transform: translate(-1000px, 155px);
+    transform: scale(0) translate(0, 815px);
     position: absolute;
     display: flex;
-    width: 99%;
-    height: 34vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
     padding: 10px 0;
     align-items: center;
     justify-content: center;
@@ -28,7 +31,11 @@
     transition: all 0.3s linear;
   }
   header nav .container .right ul li a {
+    font-size: 2em;
     color: rgb(0, 184, 0);
+  }
+  header nav .container .right ul li a button {
+    font-size: 1em;
   }
   header nav .container .right span {
     display: block;
@@ -37,7 +44,7 @@
     fill: rgb(0, 184, 0);
   }
   header nav .container .right .active_menu {
-    transform: translate(-41%, 155px);
+    transform: scale(1) translate(0, 815px);
   }
   .messangers {
     right: 0;
@@ -108,11 +115,14 @@
   }
   header nav .container .right ul {
     flex-direction: column;
-    transform: translate(-1000px, 155px);
+    transform: scale(0) translate(0, 815px);
     position: absolute;
     display: flex;
-    width: 99%;
-    height: 32vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
     padding: 10px 0;
     align-items: center;
     justify-content: center;
@@ -123,7 +133,11 @@
     transition: all 0.3s linear;
   }
   header nav .container .right ul li a {
+    font-size: 2em;
     color: rgb(0, 184, 0);
+  }
+  header nav .container .right ul li a button {
+    font-size: 1em;
   }
   header nav .container .right span {
     display: block;
@@ -132,7 +146,7 @@
     fill: rgb(0, 184, 0);
   }
   header nav .container .right .active_menu {
-    transform: translate(-42%, 150px);
+    transform: scale(1) translate(0, 815px);
   }
   .messangers {
     right: 0;
@@ -197,11 +211,14 @@
   }
   header nav .container .right ul {
     flex-direction: column;
-    transform: translate(-1500px, 155px);
+    transform: scale(0) translate(0, 815px);
     position: absolute;
     display: flex;
-    width: 99%;
-    height: 32vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
     padding: 10px 0;
     align-items: center;
     justify-content: center;
@@ -212,7 +229,11 @@
     transition: all 0.3s linear;
   }
   header nav .container .right ul li a {
+    font-size: 2em;
     color: rgb(0, 184, 0);
+  }
+  header nav .container .right ul li a button {
+    font-size: 1em;
   }
   header nav .container .right span {
     display: block;
@@ -221,7 +242,7 @@
     fill: rgb(0, 184, 0);
   }
   header nav .container .right .active_menu {
-    transform: translate(-36%, 150px);
+    transform: scale(1) translate(0, 815px);
   }
   .messangers {
     right: 0;
