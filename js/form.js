@@ -1,8 +1,8 @@
 const menubtn = document.querySelector(".menubtn")
-const Ul = document.querySelector("ul")
+const Menu_bar = document.querySelector(".menu_bar")
 
 menubtn.addEventListener("click", () => {
-    Ul.classList.toggle("active_menu")
+    Menu_bar.classList.toggle("active_menu")
 })
 
 function redirectToPhoneNumber() {

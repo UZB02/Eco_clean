@@ -26,6 +26,10 @@ header {
     padding: 5px 0;
 
     nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
         .container {
             display: flex;
             align-items: center;
@@ -99,6 +103,46 @@ header {
                 }
             }
         }
+
+        .menu_bar {
+            background-color: transparent;
+            backdrop-filter: blur(15px);
+            display: none;
+            width: 100%;
+            height: 85vh;
+            z-index: 999;
+            border-top: 1px solid rgba(192, 192, 192, 0.297);
+
+            ul {
+                width: 90%;
+                height: 80%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 15px;
+                list-style: none;
+
+                li {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    a {
+                        color: rgb(0, 184, 0);
+                        text-decoration: none;
+                        font-size: 1.5em;
+                        font-weight: bold;
+                        font-family: sans-serif;
+
+                        button {
+                            font-size: 1em;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -111,7 +155,7 @@ header {
     justify-content: center;
     flex-direction: column;
     gap: 10px;
-    z-index: 9999;
+    z-index: 555;
 
     a {
         svg {
