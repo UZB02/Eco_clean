@@ -18,7 +18,7 @@ function sendToTelegram() {
     const chatId = '6462444239';
 
     // Xabarni tayyorlash
-    const message = `Buyurtmachi:
+    const message = `Mijoz:
   Ism: ${Input[0].value}
   Familiya: ${Input[1].value}
   Telefon raqami: +998${Input[2].value}
