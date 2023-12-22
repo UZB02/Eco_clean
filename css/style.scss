@@ -336,12 +336,12 @@ header {
             flex-wrap: wrap;
             span{
                 width: 100%;
+                img {
+                        width: 100%;
+                        object-fit: cover;
+                    }
             }
-            img{
-                width: 100%;
-                height: 80vh;
-                object-fit: cover;
-            }
+            
         }
     }
 }

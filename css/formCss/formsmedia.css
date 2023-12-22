@@ -129,6 +129,7 @@
   .messangers {
     width: 100%;
     bottom: 0;
+    display: none;
     top: 530px;
     flex-direction: row;
   }
@@ -200,6 +201,7 @@
   }
   .messangers {
     right: 0;
+    display: none;
     height: 50%;
   }
   .messangers a svg {

@@ -339,9 +339,8 @@ header nav .menu_bar ul li a button {
 .page2 .container .right span {
   width: 100%;
 }
-.page2 .container .right img {
+.page2 .container .right span img {
   width: 100%;
-  height: 80vh;
   -o-object-fit: cover;
      object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
